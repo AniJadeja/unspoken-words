@@ -1,0 +1,49 @@
+﻿/* 
+
+    Header css which includes css for header part
+    
+    Author : Anirudhsinh Jadeja
+    Copyrighted content. 
+    Copying or using the content for any personal or professional use is prohibited.
+
+    You may read the code to research.
+
+*/
+
+
+/* ======================== HEADER.CSS ======================== */
+
+/* Center the header bar */
+header {
+
+    margin: auto;
+    width: 50%;
+    font-size : 1.2em;
+}
+    /* Format the header unordered list to horizontal and stylize it*/
+    header ul {
+        transition: 0s;
+        color: var(--primary-grey);
+        text-align: center;
+        font-family: primaryFont;
+        list-style: none;
+    }
+
+        /* Format the list items to display it nicely*/
+        header ul li {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+
+        /* Remove the margin-left from first child so it will be centered */
+        header ul:first-child {
+            margin-left: -20px;
+        }
+
+        /* Change text color on hover */
+        header ul li:hover {
+            transition : 0.3s;
+            color : var(--primary-white);
+        }

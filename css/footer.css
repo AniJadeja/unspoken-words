@@ -1,0 +1,29 @@
+﻿/* 
+
+    Footer css which includes css for footer part
+    
+    Author : Anirudhsinh Jadeja
+    Copyrighted content. 
+    Copying or using the content for any personal or professional use is prohibited.
+
+    You may read the code to research.
+
+*/
+
+
+/* ======================== FOOTER.CSS ======================== */
+
+footer {
+    color: var(--primary-white);
+    display : inline-block;
+}
+
+#projectName {
+    color: var(--primary-white);
+    text-align: left;
+}
+
+#info:first-line {
+    text-align : right;
+}
+

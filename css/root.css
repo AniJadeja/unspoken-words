@@ -1,0 +1,73 @@
+﻿/* 
+
+    Root css which includes all the basic css used by all other css parts
+    
+    Author : Anirudhsinh Jadeja
+    Copyrighted content. 
+    Copying or using the content for any personal or professional use is prohibited.
+
+    You may read the code to research.
+
+*/
+
+
+/* ======================== ROOT.CSS ======================== */
+
+
+
+:root {
+    /* Color variables to be used in further parts */
+
+    --primary-black: #1B1B1B;
+    --primary-white: #EBEBEB;
+    --primary-grey: #939393;
+    --primary-grey-dark: #232323;
+    --secondary-grey: #D7D7D7;
+}
+
+/* Primary Font which will be used as an accent*/
+
+@font-face {
+    font-family: "primaryFont";
+    src: url("../fonts/primaryFont_Reef.otf") format('opentype');
+}
+
+/* Secondary Bold Font which will be used as an accent*/
+
+@font-face {
+    font-family: "secondaryFontBold";
+    src: url("../fonts/secondaryFont_Inter-Bold.ttf") format('truetype');
+}
+
+/* Secondary Font which will be used as an accent*/
+
+@font-face {
+    font-family: "secondaryFont";
+    src: url("../fonts/secondaryFont_Inter-Regular.ttf") format('truetype');
+}
+
+/* Body part for which the background color would remain same */
+
+body {
+    background-color: var(--primary-black);
+}
+
+/* A navSelected class to change color of the selected item */
+
+.navSelected {
+    transition: 0.3s;
+    color: var(--primary-white);
+}
+
+/* A navUnselected class to change color of the unselected item */
+
+.navUnselected {
+    transition: 0.3s;
+    color: var(--primary-grey);
+}
+
+/* A disabled class to prevent hover on selected item */
+
+.disabled {
+    pointer-events: none;
+}
