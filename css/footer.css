@@ -14,16 +14,18 @@
 /* ======================== FOOTER.CSS ======================== */
 
 footer {
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 0%;
+
+    display: grid;
+    column-gap: 10px;
+
     color: var(--primary-white);
-    display : inline-block;
+    font-family: primaryFont;
+    font-size: 1.3em;
 }
 
-#projectName {
-    color: var(--primary-white);
-    text-align: left;
-}
 
-#info:first-line {
-    text-align : right;
-}
+
 

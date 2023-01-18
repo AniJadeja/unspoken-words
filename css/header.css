@@ -16,9 +16,12 @@
 /* Center the header bar */
 header {
 
-    margin: auto;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    
     width: 50%;
-    font-size : 1.2em;
+    font-size : 1.3em;
 }
     /* Format the header unordered list to horizontal and stylize it*/
     header ul {

@@ -25,6 +25,10 @@
     --secondary-grey: #D7D7D7;
 }
 
+body{
+    margin: 50px;
+}
+
 /* Primary Font which will be used as an accent*/
 
 @font-face {
