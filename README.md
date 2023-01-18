@@ -14,6 +14,11 @@ This project is my personal portfolio website which includes about me in webpage
 
 #Resume             - Online e-Resume
 
+
+
+
+
+
 This  project uses  the current  technologies  which  are popular  in  industry.
 
 * Figma             - The project was first brainstormed and wireframed in figma
