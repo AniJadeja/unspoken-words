@@ -21,7 +21,7 @@ footer {
     display: grid;
     column-gap: 10px;
 
-    color: var(--primary-white);
+    color: var(--primary-grey);
     font-family: primaryFont;
     font-size: 1.3em;
 }
