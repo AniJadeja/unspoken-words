@@ -5,9 +5,13 @@
 This project is my personal portfolio website which includes about me in webpages. 
 
 #Home               - Breif Introcution to my self.
+
 #About me           - Details of my background.
+
 #Projects           - Details of the projects I have worked on
+
 #Avocations         - All about Me other than the academics
+
 #Resume             - Online e-Resume
 
 This  project uses  the current  technologies  which  are popular  in  industry.
